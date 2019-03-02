@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Conctact Form</title>
+        <link rel="stylesheet" href="ContactForm.css">
+    </head>
+    <body>
+        <div class="title"><p>Contact</p></div>
+        <div class="formWrapper">
+            <form  name="contact" method="POST" action="#">
+                <table BORDER=0>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="Name" id="nameContact" placeholder="Enter your name here!" required></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <th>Subject</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="Subject" id="subjectContact" placeholder="What do you want to talk about?" required ></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td ><input type="email" name="Email" id="emailContact" placeholder="someone@email.com" required></td>
+                    </tr>
+                    <tr>
+                        <th>Message</th>
+                    </tr>
+                    <tr>
+                        <td><textarea id="textareaContact"  naame="Message" placeholder="I would like to contact to you..." required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="SEND MESSAGE >>" ></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
